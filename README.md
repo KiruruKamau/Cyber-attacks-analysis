@@ -2,136 +2,141 @@
 
 ### 🇰🇪 A Comprehensive Analysis of Cyber Attacks (2015–2024)
 
+---
+
 ## 📁 Folder Structure
-Debt/
+
+Cyber-Attacks-Analysis/
+
 ├── Cyber Security Project.pbix # Power BI Dashboard file
 
 ├── Images/
 
 │ ├── Overview.png
 
-│ ├── Domestic Debt.png
+│ ├── Industry.png
 
-│ ├── External Debt.png
+│ ├── Geographical Insights.png
 
-│ └── Data.png
+│ ├── Attacks.png
 
-├──Data/
-| ├──Cyber Security
+├── Data/
+
+│ └── Cyber Security
+
+
+---
 
 ## 🔍 Project Goals
-Identify and visualize the most common cyberattack types
 
-Understand which threats (e.g., phishing, malware) are most frequent and impactful.
+- **Identify and visualize** the most common cyberattack types  
+- **Assess the financial impact** of cyber incidents  
+- **Analyze industry-specific and regional vulnerabilities**  
+- **Evaluate resolution efficiency** across contexts  
+- **Reveal relationships** between attack vectors and defense mechanisms  
+- **Enable interactive exploration** using filters by year, industry, and country  
 
-Assess the financial impact of cyber incidents
+---
 
-Quantify and compare losses across attack types, vulnerabilities, and industries.
+## 📘 Dashboard Page Breakdown
 
-Analyze industry-specific and regional vulnerabilities
-
-Determine which sectors and countries are most affected by attacks.
-
-Evaluate resolution efficiency
-
-Examine average incident resolution times across different contexts (e.g., attack type, industry, defense mechanism).
-
-Reveal the relationships between attack vectors and defense mechanisms
-
-Use drill-down tools to explore how threats evolve and how organizations respond.
-
-Enable interactive exploration of cybersecurity trends
-
-Provide filters and dynamic visuals to help users explore patterns by year, country, industry, and more.
-
-📘 Dashboard Page Breakdown
+---
 
 ### 🧭 Overview – Cybersecurity Threat Analysis
-Purpose:
+
+**Purpose:**  
 Provide a high-level summary of the global cyber threat landscape, including key metrics, trends, and attack distribution.
 
-Key Visuals:
+**Key Visuals:**
+- KPI Cards for Total Attacks, Financial Loss, Affected Users, and Resolution Time  
+- Line Chart: Attacks by Year  
+- Bar Chart: Financial Loss by Year  
+- Donut Chart: Attacks by Type  
+- Bar Chart: Affected Users by Year
 
-KPI Cards for Total Attacks, Total Financial Loss, Total Affected Users, and Average Incident Resolution Time.
+**Insights:**  
+Track how cyber threats evolved and their cumulative global impact.
 
-Line Chart: Total Attacks by Year.
+![Overview](https://github.com/KiruruKamau/Cyber-attacks-analysis/blob/main/Cyber%20Attacks%20Analysis/Images/Overview.png?raw=true)
 
-Bar Chart: Total Financial Loss by Year.
-
-Donut Chart: Distribution of Attacks by Type.
-
-Bar Chart: Total Affected Users by Year.
-
-Insights:
-Track how cyber threats have evolved over time and their cumulative global impact.
-[Overview].(https://github.com/KiruruKamau/Cyber-attacks-analysis/blob/main/Cyber%20Attacks%20Analysis/Images/Overview.png)
+---
 
 ### 🌍 Geographical Insights
-Purpose:
+
+**Purpose:**  
 Visualize the global distribution of cyberattacks and identify the most affected countries.
 
-Key Visuals:
+**Key Visuals:**
+- Map: Attacks by Country  
+- Bar Chart: Average Resolution Time by Country  
+- Funnel Chart: Top 5 Countries by Attacks  
+- Stacked Column: Country vs. Attack Type
 
-Map: Total Attacks by Country.
+**Insights:**  
+Understand regional attack patterns and risk concentration.
 
-Bar Chart: Average Resolution Time by Country.
+![Geographical Insights](https://github.com/KiruruKamau/Cyber-attacks-analysis/blob/main/Cyber%20Attacks%20Analysis/Images/Geographical%20Insights.png?raw=true)
 
-Funnel Chart: Top 5 Countries by Number of Attacks.
-
-Stacked Column Chart: Countries vs. Attack Type or Frequency.
-
-Insights:
-Understand regional patterns in cyber threats and highlight high-risk countries.
-[Geographical Insights].(https://github.com/KiruruKamau/Cyber-attacks-analysis/blob/main/Cyber%20Attacks%20Analysis/Images/Geographical%20Insights.png)
+---
 
 ### 🏢 Industry Impact Analysis
-Purpose:
+
+**Purpose:**  
 Explore how different industries are targeted and affected by cyberattacks in terms of volume and cost.
 
-Key Visuals:
+**Key Visuals:**
+- Bar Chart: Attacks by Target Industry  
+- Bar Chart: Financial Loss by Industry  
+- Bar Chart: Top Countries Affected  
+- Stacked Column: Attack Source by Industry
 
-Bar Chart: Total Attacks by Target Industry.
+**Insights:**  
+Identify high-risk sectors and their vulnerability to different threat sources.
 
-Bar Chart: Financial Loss by Target Industry.
+![Industry Impact](https://github.com/KiruruKamau/Cyber-attacks-analysis/blob/main/Cyber%20Attacks%20Analysis/Images/Industry.png?raw=true)
 
-Bar Chart: Top Attacked Countries.
-
-Stacked Column Chart: Attack Source by Industry.
-
-Insights:
-Identify high-risk sectors and see which sources are responsible for industry-specific attacks.
-[Industry Impact].(https://github.com/KiruruKamau/Cyber-attacks-analysis/blob/main/Cyber%20Attacks%20Analysis/Images/Industry.png)
+---
 
 ### 🛠️ Attack Types & Vulnerabilities
-Purpose:
-Dive deeper into types of attacks, attack sources, vulnerabilities exploited, and resulting financial impact.
 
-Key Visuals:
+**Purpose:**  
+Dive deeper into attack types, threat sources, vulnerabilities, and resulting financial consequences.
 
-Bar Chart: Total Attacks by Attack Type.
+**Key Visuals:**
+- Bar Chart: Attacks by Type  
+- Bar Chart: Financial Loss by Vulnerability  
+- Donut Chart: Attack Source Breakdown  
+- Bar Chart: Financial Loss by Attack Source
 
-Bar Chart: Financial Loss by Vulnerability Type.
+**Insights:**  
+Expose the most damaging vulnerabilities and frequent attack methods.
 
-Donut Chart: Total Attacks by Attack Source.
+![Attack Types & Vulnerabilities](https://github.com/KiruruKamau/Cyber-attacks-analysis/blob/main/Cyber%20Attacks%20Analysis/Images/Attacks.png?raw=true)
 
-Bar Chart: Financial Loss by Attack Source.
+---
 
-Insights:
-Understand the nature of attacks, who initiates them, and what weaknesses are most commonly targeted.
+## 🎛️ Filters Available
 
-📌 Slicers Available on All Pages:
-Year
+Every page contains slicers for:
+- **Year**
+- **Attack Source**
+- **Target Industry**
 
-Attack Source
+These allow dynamic filtering and personalized data exploration.
 
-Target Industry
-
-[Attack Types & Vulnerabilities].(https://github.com/KiruruKamau/Cyber-attacks-analysis/blob/main/Cyber%20Attacks%20Analysis/Images/Attacks.png)
+---
 
 ## 🧰 Tools & Technologies
 
-| Tool        | Use Case                             |
-|-------------|--------------------------------------|
-| **Power BI** | Dashboard building & DAX calculations |
-| **Excel**    | Data extraction & initial cleaning    |
-| **GitHub**   | Version control
+| Tool        | Purpose                                 |
+|-------------|------------------------------------------|
+| **Power BI** | Dashboard design & DAX calculations     |
+| **Excel**    | Data cleaning and structuring           |
+| **GitHub**   | Version control & portfolio hosting     |
+
+---
+
+## 🎯 Summary
+
+This dashboard empowers stakeholders to monitor, understand, and explore cyber threat patterns across industries and geographies. With interactive visuals, drilldowns, and KPIs, it supports proactive cybersecurity decision-making.
+
